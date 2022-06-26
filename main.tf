@@ -23,7 +23,7 @@ terraform {
 provider "aws" {
   region = "eu-central-1"
 }
-
+/*
 resource "random_pet" "sg" {}
 
 data "aws_ami" "ubuntu" {
@@ -77,3 +77,4 @@ resource "aws_security_group" "web-sg" {
 output "web-address" {
   value = "${aws_instance.web.public_dns}:8080"
 }
+*/
